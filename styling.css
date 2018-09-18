@@ -1,0 +1,67 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.working{
+	background-color: rgba(4,8,17,1);
+	width: 50%;
+	height: 40vw;
+
+}
+.points{
+	background-color: rgba(39,80,170,1);
+	width: 50%;
+	height: 10vw;
+   text-align: center;
+   font-family: courier new; 
+   color:white;
+   font-size: 2vw;
+}
+.main{
+margin-right: auto;
+margin-left: auto;
+}
+.colour h1{
+  text-align: center;
+}
+.g1{
+	color: white;
+	border: 1px solid red;
+	padding: 20px;
+    background-color: rgba(23,67,123,1);
+    text-align: center;
+    height:4vw;
+    width: 8vw;
+}
+.grids{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	
+	grid-gap: 1vw;
+}
+.timer1 button{
+	width: 50%;
+	height: 50px;
+	background-color: blue;
+	border: none;
+}
+.timer1 span
+{
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: green;
+	font-family: courier new;
+	font-size: 2vw;
+	border:none;
+
+}
+.chan{
+	text-align: center;
+	width: 100%;
+	height: 3vw;
+	color: white;
+	background-color: rgba(0,128,0,1);
+}
