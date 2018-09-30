@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>colour game</title>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+	
+<div class="colour">
+	<h1>BALAM PICHKAARI</h1>
+</div>
+<div class="main">
+	<div class="working">
+		<div class="timer1"><button id="start" onclick="get(),changer()" style="font-family: courier new ">START</button>
+			<span id="timing"></span>
+		</div>
+      <div class="chan" id="change"></div>
+		<div class="ran"></div>
+		<div class="grids" id="0">
+			<div class="g1" id="1" onclick="clk()" style="background-color: rgba(148,0,211,0.9);"></div>
+			<div class="g1" id="2" onclick="clk()" style="background-color: rgba(0,0,255,0.9);"></div>
+			<div class="g1" id="3" onclick="clk()" style="background-color: rgba(0,128,0,0.9);"></div>
+			<div class="g1" id="4" onclick="clk()" style="background-color: rgba(75,0,130,0.9);"></div>
+			<div class="g1" id="5" onclick="clk()" style="background-color: rgba(128,0,0,0.9);"></div>
+			<div class="g1" id="6" onclick="clk()" style="background-color: rgba(128,0,128,0.9);"></div>
+			<div class="g1" id="7" onclick="clk()" style="background-color: rgba(255,0,0,0.9);"></div>
+			<div class="g1" id="8" onclick="clk()" style="background-color: rgba(255,255,255,0.6);"></div>
+			<div class="g1" id="9" onclick="clk()" style="background-color: rgba(0,255,255,0.9);"></div>
+		</div>
+	</div>
+	<div class="score">SCORE</div>
+	<div class="points" id="pts"></div>
+</div>
+<script src="func.js"></script>
+</body>
+</html>
