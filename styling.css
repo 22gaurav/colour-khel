@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image:url(images.jfif); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.working{
+	background-color:black;
+	
+	width: 80%;
+	height: 36vw;
+
+}
+.points{
+	background-color: rgba(39,80,170,1);
+	width: 80%;
+	height: 7.5vw;
+   text-align: center;
+   font-family: courier new; 
+   color:white;
+   font-size: 2vw;
+}
+.main{
+margin-left: 22%;
+}
+.colour h1{
+  text-align: center;
+  font-family: comic sans MS;
+}
+.g1{
+
+	color: white;
+	border: 1px solid red;
+	padding: 20px;
+    background-color: rgba(23,67,123,1);
+    text-align: center;
+    height:4vw;
+    width:8vw;
+    font-family: courier new;
+}
+.grids{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 3vw;
+	
+	grid-gap: 1vw;
+}
+.timer1 button{
+	width: 50%;
+	height: 50px;
+	background-color: blue;
+	border: none;
+}
+.timer1 #timing
+{
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: green;
+	font-family: courier new;
+	font-size: 2vw;
+	border:none;
+
+}
+.chan{
+	text-align: center;
+	width: 100%;
+	height: 3vw;
+	color: white;
+	background-color: rgba(0,128,0,1);
+	font-family: courier new;
+}
+.score{
+	background-color: rgba(39,80,170,1);
+	width: 80%;
+	 text-align: center;
+   font-family: courier new; 
+   color:white;
+   font-size: 2vw;
+}
